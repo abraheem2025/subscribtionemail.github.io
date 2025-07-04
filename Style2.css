@@ -1,0 +1,38 @@
+
+body{
+    margin: 0;
+}
+
+img{
+   width:100vw ;
+   height:100vh ;
+   display: block;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    top: 30%;
+    left: 25%;
+    transition:all 1s;
+    position: absolute;
+   
+}
+.btn{
+      position: absolute;
+       top: 60%;
+       left: 43.5%;
+       background-color: orange;
+       border-color: orange;
+       transition:all 1s;
+       border-radius: 30px;
+       font-size: x-large;
+       color: white;
+}
+.btn:hover{
+    background-color: black;
+    
+    transform: scale(1.1);
+}
